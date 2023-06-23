@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="heading">Calculater</h1>
+    <input type="number" onchange="handleChange(this)" id="input" step="any">
+    
+    
+    <div class="row">
+    <button id="white-btn"><span>C</span></button>
+    <button id="white-btn"><span>+/-</span></button>
+    <button id="white-btn"><span>%</span></button>
+    <button id="yellow-btn"> <span>÷</span></button>
+</div>
+
+<div class="row">
+    <button id="7"><span>7</span></button>
+    <button id="8"><span>8</span></button>
+    <button id="9"><span>9</span></button>
+    <button id="yellow-btn"><span>X</span></button>
+</div>
+
+<div class="row">
+    <button id="4"><span>4</span></button>
+    <button id="5"><span>5</span></button>
+    <button id="6"><span>6</span></button>
+    <button id="yellow-btn"><span>-</span></button>
+</div>
+
+<div class="row">
+    <button id="1"><span>1</span></button>
+    <button id="2"><span>2</span></button>
+    <button id="3"><span>3</span></button>
+    <button id="yellow-btn"><span>+</span></button>
+</div>
+
+<div class="special-row">
+    <button id="special-num"><span>0</span></button>
+    <button id="."><span>.</span></button>
+    <button id="yellow-btn"><span>=</span></button>
+</div>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
